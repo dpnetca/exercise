@@ -71,7 +71,6 @@ func DealHands(players *[]Player, CardsToDeal int) {
 
 func Play(players *[]Player) {
 	DealHands(players, 2)
-	fmt.Printf("Players: %v\n\n", players)
 	gameOver := false
 
 	var choice string
