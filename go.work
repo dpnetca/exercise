@@ -7,4 +7,5 @@ use (
 	./quizGame/v2
 	./quizGame/v3
 	./rockPaperScissors/v1
+	./urlShortener/v1
 )
