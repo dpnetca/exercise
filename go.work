@@ -1,0 +1,10 @@
+go 1.18
+
+use (
+	./blackjack/v1
+	./hangman/v1
+	./quizGame/v1
+	./quizGame/v2
+	./quizGame/v3
+	./rockPaperScissors/v1
+)
