@@ -13,3 +13,7 @@ urlshort.go (from handler.go) and main.go (from main/main.go) starting frames fr
 ## v1
 - completed exercise (no bonus) 
 - some items updated after watching solution to correct errors
+
+## v2
+- added flag to parse yaml file, if no file then use default 
+- added json handler with flag to aprse json file if no file then use default

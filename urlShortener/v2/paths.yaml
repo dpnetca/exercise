@@ -1,0 +1,4 @@
+- path: /git
+  url: https://github.com/dpnetca
+- path: /git-short
+  url: https://github.com/dpnetca/exercise/urlShortener/

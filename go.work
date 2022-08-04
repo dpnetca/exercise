@@ -8,4 +8,5 @@ use (
 	./quizGame/v3
 	./rockPaperScissors/v1
 	./urlShortener/v1
+	./urlShortener/v2
 )

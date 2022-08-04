@@ -1,0 +1,10 @@
+[ 
+	{
+		"path": "/bing",
+    "url": "https://bing.com"
+	},
+	{
+		"path": "/yahoo",
+    "url": "https://yahoo.com"
+	}
+]
