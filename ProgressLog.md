@@ -6,4 +6,4 @@
 - 2022-08-02 - [quiz Game v1, v2 and v3](/quizGame/)
 - 2022-08-03 - [URL Shortener v1](/urlShortener/)
 - 2022-08-04 - [URL Shortener v2](/urlShortener/)
-
+- 2022-08-04 - [Choose Your Own Adventure v1](/chooseAdventure/)
