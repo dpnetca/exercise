@@ -7,3 +7,4 @@
 - 2022-08-03 - [URL Shortener v1](/urlShortener/)
 - 2022-08-04 - [URL Shortener v2](/urlShortener/)
 - 2022-08-04 - [Choose Your Own Adventure v1](/chooseAdventure/)
+- 2022-08-05 - [Choose Your Own Adventure v2](/chooseAdventure/)
