@@ -4,6 +4,8 @@ use (
 	./blackjack/v1
 	./chooseAdventure/v1
 	./chooseAdventure/v2
+	./chooseAdventure/v3
+	./chooseAdventure/v4
 	./hangman/v1
 	./quizGame/v1
 	./quizGame/v2
