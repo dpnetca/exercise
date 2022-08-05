@@ -101,7 +101,6 @@ func StoryWeb(story map[string]arc) (http.HandlerFunc, error) {
 		} else {
 			arc = arcQuery[0]
 		}
-		fmt.Println(arc)
 		if s, ok := story[arc]; ok {
 			err = t.Execute(w, s)
 			if err != nil {
