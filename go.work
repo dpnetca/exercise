@@ -11,6 +11,7 @@ use (
 	./quizGame/v2
 	./quizGame/v3
 	./rockPaperScissors/v1
+	./secretsManager/v1
 	./trivia/v1
 	./urlShortener/v1
 	./urlShortener/v2
