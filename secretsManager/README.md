@@ -10,3 +10,12 @@ This is NOT intended Production ready code, use something like HashiCorp Vault i
 
 ## V1
 - read/write secrets to file stored as JSON format, without encryption.  place holders used for encryption steps to be implemented in v2
+
+## v2 
+updates after watching videos
+- added cypto, moved encryption/decryption place holders from ./secrets to ./crypt
+- added EncryptionKey to vault struct
+- added flag to set the encryption key
+- refactored some variable names for consistency
+- change newVault to return pointer to vault instead of vault itself, and removed unused error return
+- added mutex to struct and set/get functions to make it thread safe...maybe
