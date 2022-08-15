@@ -12,3 +12,5 @@
 - 2022-08-06 - [Choose Your Own Adventure v4](/chooseAdventure/)
 - 2022-08-09 - [Triva v1](/trivia/)
 - 2022-08-10 - [Secrets Manager v1](/secretsManager/)
+- 2022-08-11 - [Secrets Manager v2](/secretsManager/)
+- 2022-08-15 - [Secrets Manager v3](/secretsManager/)

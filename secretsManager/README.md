@@ -19,3 +19,7 @@ updates after watching videos
 - refactored some variable names for consistency
 - change newVault to return pointer to vault instead of vault itself, and removed unused error return
 - added mutex to struct and set/get functions to make it thread safe...maybe
+
+## v3
+more updates after videos
+- add reader/writer to for encryption/decryption of file (still using previous functions for encryption/decryption of secret values)
