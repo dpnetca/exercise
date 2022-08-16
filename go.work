@@ -10,6 +10,7 @@ use (
 	./quizGame/v1
 	./quizGame/v2
 	./quizGame/v3
+	./resistors/v1
 	./rockPaperScissors/v1
 	./secretsManager/v1
 	./secretsManager/v2
