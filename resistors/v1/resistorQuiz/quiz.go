@@ -31,7 +31,7 @@ func (q *Quiz) Generate(num int) error {
 	for i := 0; i < num; i++ {
 		q.Resistors = append(q.Resistors, Resistor{})
 		// TODO seperate question generation to seperate function?
-		// TODO add variable number of bands, tolerance, etc.
+		// TODO add variable number of bands,
 		for j := 0; j < 3; j++ {
 			n := rand.Intn(len(resistor.Bands))
 			q.Resistors[i].Bands = append(q.Resistors[i].Bands, *resistor.Bands[n])
