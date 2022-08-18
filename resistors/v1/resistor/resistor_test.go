@@ -12,7 +12,7 @@ const ohm = 8486
 func TestCalculate(t *testing.T) {
 	tests := []struct {
 		input []resistor.Color
-		want  int
+		want  float64
 	}{
 		{[]resistor.Color{resistor.Black, resistor.Brown, resistor.Black}, 1},
 		{[]resistor.Color{resistor.Black, resistor.Red, resistor.Brown}, 20},
@@ -45,7 +45,7 @@ func TestCalculate(t *testing.T) {
 
 func TestToString(t *testing.T) {
 	tests := []struct {
-		input int
+		input float64
 		want  string
 	}{
 		{1, fmt.Sprintf("1 %c", ohm)},
@@ -65,7 +65,7 @@ func TestToString(t *testing.T) {
 		{900000000000, fmt.Sprintf("900 G%c", ohm)},
 	}
 	for i, tc := range tests {
-		t.Run(fmt.Sprintf("Caclulate %d-(%d)", i, tc.input), func(t *testing.T) {
+		t.Run(fmt.Sprintf("Caclulate %d-(%.0f)", i, tc.input), func(t *testing.T) {
 			got := resistor.ToString(tc.input)
 			if got != tc.want {
 				t.Fatalf("got %v; want %v", got, tc.want)
