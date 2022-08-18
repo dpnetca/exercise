@@ -15,3 +15,4 @@
 - 2022-08-11 - [Secrets Manager v2](/secretsManager/)
 - 2022-08-15 - [Secrets Manager v3](/secretsManager/)
 - 2022-08-16 - [Resistor Quiz v1](/resistors/) - started
+- 2022-08-18 - [taskManager v1](/taskManager/) - started

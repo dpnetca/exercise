@@ -15,6 +15,7 @@ use (
 	./secretsManager/v1
 	./secretsManager/v2
 	./secretsManager/v3
+	./taskManager/v1
 	./trivia/v1
 	./urlShortener/v1
 	./urlShortener/v2
